@@ -16,10 +16,10 @@ Canva — Presentation design
 
 The dataset consists of four related tables:
 
-• `orders` - `order_id` (INT), `order_date` (DATE), `order_time` (TIME) |
-• `order_details` - `order_details_id` (INT), `order_id` (INT), `pizza_id` (TEXT), `quantity` (INT) |
-• `pizzas` - `pizza_id` (TEXT), `pizza_type_id` (TEXT), `size` (TEXT), `price` (DOUBLE) |
-• `pizza_types` - `pizza_type_id` (TEXT), `name` (TEXT), `category` (TEXT), `ingredients` (TEXT) |
+• 'orders' - 'order_id' (INT), 'order_date' (DATE), 'order_time' (TIME) 
+• 'order_details' - 'order_details_id' (INT), 'order_id' (INT), 'pizza_id' (TEXT), 'quantity' (INT) 
+• 'pizzas' - 'pizza_id' (TEXT), 'pizza_type_id' (TEXT), 'size' (TEXT), 'price' (DOUBLE) 
+• 'pizza_types' - 'pizza_type_id' (TEXT), 'name' (TEXT), 'category' (TEXT), 'ingredients' (TEXT) 
 
 🔍 Key Business Questions Answered
 
@@ -43,7 +43,7 @@ The dataset consists of four related tables:
 - ✅ The Greek Pizza ($35.95) is the highest-priced item on the menu.
 - ✅ Large-sized pizzas are the clear customer favorite (18,526 orders).
 - ✅ The Classic Deluxe Pizza is the best-selling type by quantity (2,453 orders).
-- ✅ Classic** pizzas lead category demand (14,888 units), while Chicken pizzas — despite having the fewest varieties — drive the highest revenue.
+- ✅ Classic pizzas lead category demand (14,888 units), while Chicken pizzas — despite having the fewest varieties — drive the highest revenue.
 - ✅ Order volume peaks at 12 PM (2,520 orders), confirming lunch as the busiest period.
 - ✅ Average daily order volume: 138 pizzas/day, indicating stable demand.
 - ✅ Cumulative revenue shows a consistent upward trend, reflecting sustained business growth.
